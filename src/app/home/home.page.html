@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Ocio
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6" *ngFor="let imagen of imagenes">
+                <img src="{{imagen}}" alt="" srcset="" (click)="verimagen()">
+            </ion-col>
+
+        </ion-row>
+    </ion-grid>
+</ion-content>
